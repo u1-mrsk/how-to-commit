@@ -3,20 +3,21 @@ Editing is history of changes, and a change is expressed as a commit.
 
 ## 1. Think subject line first
 First of all, think subject line of commit message.  
-Properly formed subject line can complete the following:
-    If applied, this commit will `__subject line__`.
+Properly formed subject line can complete the following:  
+    If applied, this commit will `SUBJECT-LINE`.
 - limit to 50 chars
 - use the imperative mood
 - capitalize
 - do not end with a period
-If you're having difficulty in summarizing into 50 chars,  
-you might be committing too many changes at once.
+
+If you're having difficulty in summarizing into 50 chars,
+you might be committing too many changes at once.  
 Separate them into atomic commits (= the unit of changes).  
 
 See also Examples of subject line in commit below.
 
 ## 2. Write docstring before implementing code
-What elements are required to accomplish subject line considered above?  
+**What** elements are required to accomplish subject line considered above?  
 **What** problems does this code you are implementing solve?
 
 ## 3. Implement
@@ -26,6 +27,7 @@ Code written and tools such as diff show **How** to solve problems.
 ## 4. Write body of commit message following a blank line
 - separate subject from body with a blank line
 - wrap the body at 72 chars
+
 Write supplemental context to understand the full diff.  
 In addition to headline of docstring written above,
 - **Why** is this change necessary?
